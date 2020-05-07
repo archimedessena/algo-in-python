@@ -69,7 +69,8 @@ def sumodd(x):
     return (y * y for y in range(1, x) if y % 2 ==1)
 
 
-print(sumodd(450))
+print(sumodd(20))
+print(sumodd(5679))
 
 
 
