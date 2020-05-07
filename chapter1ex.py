@@ -70,6 +70,13 @@ def sumodd(x):
 
 
 print(sumodd(450))
+print(sumodd(3449))
+
+
+
+
+def sumodd1(n):
+      return (n*n for t in range(1, n) if t%2==1)
 
 
 
@@ -95,10 +102,5 @@ print(sumodd(450))
 
 
 
-
-
-
-
-
-
+  
 
