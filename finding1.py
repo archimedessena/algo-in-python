@@ -4,7 +4,7 @@ def contains(data, target):
             if item == target:
                  return True
     
-    return False   
+    return True  
 
 
 
