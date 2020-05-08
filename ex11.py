@@ -6,5 +6,5 @@ print([2**b for b in range(9)]) # multipling the subsequent number by 2
 
 
 
-print([k**3 for k in range(1,8)]) # finding the cube subsequent numbers
+print([k**3 for k in range(1,8)]) # finding the cube of subsequent numbers
 print([3**t for t in range(10)])# multipling the subsequent numbers by 3
