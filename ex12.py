@@ -5,8 +5,8 @@ def randomchoice(data):
     return data[random.randrange(0, len(data))]
 
 
-data = [12,34,5,55,78,8]
-for k in range(40):
+data = ["Archimedes", "Sena",  "Senadju"]
+for k in range(200):
     print(randomchoice(data), end = ' ')
 
 
