@@ -5,16 +5,16 @@ def minmax(data):
     #large = data[0]
     #if len(data):
     for item in data:
-        if item > small:
+        if item < small:
             small = item
-        elif item < large:
+        elif item > large:
             large = item
-    return large, small
+    return small, large
 
 
 
 
-print(minmax([3, 4, 15, 6, 34, 89, 92, 0]))
+print(minmax([3, 4, 15, 6, 34, 89, 92, 0, -1]))
 
 
 

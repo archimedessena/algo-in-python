@@ -1,0 +1,1 @@
+# Exercise 5: Give a single command that computes the sum from Exercise 1.4, relying on Python`s comprehension syntax and the built in sum function.
