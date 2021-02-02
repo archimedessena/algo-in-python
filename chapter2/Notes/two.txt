@@ -1,0 +1,130 @@
+OBJECTIVE ORIENTED PROGRAMMING FROM ALGO IN PYTHON CHAPTER TWO
+MODULARITY
+Modern software systems typically consist of several different components that
+must interact correctly in order for the entire system to work properly.
+
+OR
+
+organizing principle in which different components
+of a software system are divided into separate functional units.
+
+
+
+Abstraction:The notion of abstraction is to distill a complicated system down to its most funda
+mental
+parts. or refer to the
+collective set of behaviors supported by an ADT as its public interface.
+
+
+duck typing: is the traditional way in which python handles abstraction
+
+
+
+Encapsulation
+Different components of a software system should not reveal the internal details of their
+respective implementations.
+
+By convention, names of members of a class (both data members
+and member functions) that start with a single underscore character (e.g., secret)
+are assumed to be nonpublic and should not be relied upon
+
+
+DESIGN PATTERNS: READ A BOOK ON IT
+patterns for solving algorithm design problems
+and patterns for solving software engineering problems.
+
+
+SOFTWARE DEVELOPMENT
+Three major steps are:
+1. Design
+2. Implementation
+3. Testing and Debugging
+
+1. DESIGN:
+For it is in the design step that we
+decide how to divide the workings of our program into classes, we decide how
+these classes will interact, what data each will store, and what actions each will
+perform.
+
+HOW TO DESIGN A CLASS(RULES)
+a. Responsibilities: Divide the work into different actors, each with a different
+responsibility. Try to describe responsibilities using action verbs. These
+actors will form the classes for the program.
+
+b. Independence: Define the work for each class to be as independent from
+other classes as possible.
+
+c. Behaviors: Define the behaviors for each class carefully and precisely, so
+that the consequences of each action performed by a class will be well understood
+by other classes that interact with it. These behaviors will define
+the methods that this class performs, and the set of behaviors for a class are
+the interface to the class, as these form the means for other pieces of code to
+interact with objects from the class.
+
+#A tool for developing classes is CRC= Class Responsibility Card
+A card should represent a component
+
+
+Classes:
+
+Fields:
+_bank
+_customer
+_account
+_balance
+_limit
+
+Behaviors:
+get_customer()
+get_bank()
+get_account()
+make_payment(amount)
+get_balance()
+get_limit()
+charge(price)
+
+Pseudo-Code: Algo express in normal language for human understanding
+
+
+Coding Style and Documentation:
+a. Python code blocks are typically indented by 4 spaces.
+b.Use meaningful names for identifiers.
+    i. Classes should have a name that serves as a singular noun, use CamelCase convention if using 
+    two or more words
+    ii. The name of a function should typically be a verb that describes its affect.
+    Note: In line comments are also good for Documentation, 
+    Multiline block comments are good for explaining more complex code sections.
+
+
+DOCSTRING: Python provides integrated support for embedding formal documentation directly
+in source code using a mechanism known as a docstring
+
+
+Testing and Debugging:
+Testing: Is the process of experimentally checking the correctness of a program.
+
+Debugging:is the process of tracking the execution of a program and discovering
+the errors in it.
+
+Top-down = stubbing
+Bottom-up = unit testing
+
+
+Debugging
+The simplest debugging technique consists of using print statements
+
+
+
+Class Definitions:
+A class also serves as a blueprint for its instances, effectively determining the way
+that state information for each instance is represented in the form of attributes (also
+known as fields, instance variables, or data members).
+
+
+Self identifier: Syntactically, self identifies the instance upon which a method is invoked.
+
+
+Constructor: Its primary responsibility is to establish the state of a newly created credit card object with appropriate instance variables.
+
+page96
+

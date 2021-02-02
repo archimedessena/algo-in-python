@@ -2,8 +2,12 @@
 #the list [ a , b , c , ..., z ], but without having to type all 26 such
 #characters literally.
 
-t = [chr(97 + x ) for x in range(26)]
-print(t)
+p= [chr(97 + x) for x in range(24)]
+
+print(p)
+
+
+
 
 
 
