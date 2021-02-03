@@ -126,5 +126,71 @@ Self identifier: Syntactically, self identifies the instance upon which a method
 
 Constructor: Its primary responsibility is to establish the state of a newly created credit card object with appropriate instance variables.
 
-page96
 
+
+#Operator Overloading and Python’s Special Methods
+Read more on it later
+
+
+Polymorphism:literally means  many forms.
+
+
+
+#Iterator
+
+
+
+
+
+#Inheritance
+the mechanism for a modular and hierarchical organization
+is a technique known as inheritance
+OR
+A natural way to organize various structural components of a software package
+is in a hierarchical fashion, with similar abstract definitions grouped together in
+a level-by-level manner that goes from specific to more general as one traverses
+up the hierarchy.
+
+Example: The set of a building which is apartment, house, commercial house. The apartment also has a subset, likewise the house and commercial house
+
+The correspondence between levels is often referred
+to as an “is a” relationship, as a house is a building, and a ranch is a house.
+
+
+
+In object-oriented terminology,
+the existing class is typically described as the base class, parent class, or superclass,
+while the newly defined class is known as the subclass or child class
+
+
+There are two ways in which a subclass can differentiate itself from its superclass.
+A subclass may specialize an existing behavior by providing a new implementation
+that overrides an existing method. A subclass may also extend its
+superclass by providing brand new methods. SPECIALIZATION AND EXTENSION
+
+
+The mechanism
+for calling the inherited constructor relies on the syntax, super(). 
+example: super().__init__(customer, bank, acnt, limit)
+
+
+#Protected Members 
+names beginning with a single underscore are conventionally akin to protected, while names beginning with a
+double underscore (other than special methods) are akin to private
+
+Members that are declared as protected are accessible to subclasses, but not to the general
+public, while members that are declared as private are not accessible to either
+
+
+
+# Abstract Base Classes
+When defining a group of classes as part of an inheritance hierarchy, one technique
+for avoiding repetition of code is to design a base class with common functionality
+that can be inherited by other classes that need it.
+ 
+OR
+In classic object-oriented terminology, we say a class is an abstract base class
+if its only purpose is to serve as a base class through inheritance.
+
+More formally, an abstract base class is one that cannot be directly instantiated, while a concrete
+class is one that can be instantiated
